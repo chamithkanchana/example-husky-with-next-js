@@ -10,8 +10,8 @@
     "format": "prettier --write ."
   },
   "husky": {
-    "hooks":{
-      "pre-commit": "yarn format"
+    "hooks": {
+      "pre-commit": "yarn format && git add -A ."
     }
   },
   "dependencies": {
